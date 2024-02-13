@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Search and Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33bacc7b-4d42-42c9-a861-20d22ecf1069</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f59e5d8-69a6-497c-ac2f-2e7ca7bf7bbe</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'mastercredit'</defaultValue>
+      <description></description>
+      <id>3f59e5d8-69a6-497c-ac2f-2e7ca7bf7bbe</id>
+      <masked>false</masked>
+      <name>paymentMethod</name>
+   </variable>
+</TestCaseEntity>
