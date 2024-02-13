@@ -12,10 +12,27 @@ This project utilizes Katalon Studio for mobile automation testing on the Advant
 * Add the item to the cart.
 * Navigate to the cart and proceed to checkout.
 * Based on the payment method (MasterCredit or SafePay), fill in the required details:
-  - If MasterCredit:
-    - Enter credit number, CVV, date, and name.
-  - If SafePay:
-    - Enter username and password.
+  ```
+  if(paymentMethod.equalsIgnoreCase("mastercredit")) {
+  	Mobile.tap(findTestObject('Object Repository/Checkout/ImageView.MasterCredit'), 0)
+  	
+  	Mobile.tap(findTestObject('Object Repository/Checkout/RelativeLayout.CVV'), 10)
+  	Mobile.setText(findTestObject('Object Repository/Checkout/EditText.CVV'), "541", 10)
+  	
+  	Mobile.tap(findTestObject('Object Repository/Checkout/RelativeLayout.CardName'), 10)
+  	Mobile.setText(findTestObject('Object Repository/Checkout/EditText.CardName'), "Aqua Botol", 10)
+  	
+  	Mobile.tap(findTestObject('Object Repository/Checkout/TextView.APPLY'), 10)
+  }else if(paymentMethod.equalsIgnoreCase("safepay")) {
+  	Mobile.tap(findTestObject('Object Repository/Checkout/RelativeLayout.SafePayUsername'), 10)
+  	Mobile.setText(findTestObject('Object Repository/Checkout/EditText.SafePayUsername'), "AquaBotol1", 10)
+  	
+  	Mobile.tap(findTestObject('Object Repository/Checkout/RelativeLayout.SafePayPassword'), 10)
+  	Mobile.setText(findTestObject('Object Repository/Checkout/EditText.SafePayPassword'), "TheAquaBotol1", 10)
+  
+  	Mobile.tap(findTestObject('Object Repository/Checkout/TextView.SafePayAPPLY'), 10)
+  }
+  ```
 * Click "Pay Now."
 * Verify the success confirmation dialog using Mobile.verifyElementVisible(findTestObject('Object Repository/Checkout/TextView.Success'), 10).
 
