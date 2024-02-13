@@ -54,10 +54,10 @@ This project utilizes Katalon Studio for mobile automation testing on the Advant
    - [Download Network Error](https://drive.google.com/file/d/1MrnftCufBckOauFP748VFf_az9COjRY8/view?usp=sharing)
 
 2. **Checkout Error - "An error occurred":**
-   An error message is displayed during the checkout process without clear details. Examine the application logs or inspect the UI elements to identify the root cause of this issue.
+   An error message is displayed during the checkout process without clear details.
 
 3. **Search Timeout Issue:**
-   The search process takes longer than the specified timeout (10 seconds). Adjust the timeout duration in your test case to ensure it accommodates the actual search duration.
+   The search process takes longer than the specified timeout (10 seconds). 
 
    **Evidence:**
    - [Download Timeout Error](https://drive.google.com/file/d/1Mp3udV7COA7pJZDKuJUJ8ynE34Vswd5w/view?usp=sharing)
