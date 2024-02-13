@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,,,,2024-02-13 22:13:35,2024-02-13 22:15:55,2m - 20.010s,FAILED
+,,,,,,,
+Test Cases/Checkout/TC - Search and Checkout,,,,2024-02-13 22:13:35,2024-02-13 22:14:50,1m - 14.641s,FAILED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:13:35,2024-02-13 22:13:52,17.126s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/ImageView.BurgerButton""), 10)",,,,2024-02-13 22:13:52,2024-02-13 22:13:53,0.870s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/LinearLayout.LoginButton""), 10)",,,,2024-02-13 22:13:53,2024-02-13 22:13:55,1.243s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Login/RelativeLayout.Username""), 10)",,,,2024-02-13 22:13:55,2024-02-13 22:13:57,2.389s,PASSED
+"setText(findTestObject(""Object Repository/Profile/Login/EditText.Username""), ""AquaBotol1"", 10)",,,,2024-02-13 22:13:57,2024-02-13 22:13:58,1.169s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Login/RelativeLayout.Password""), 10)",,,,2024-02-13 22:13:58,2024-02-13 22:14:00,1.676s,PASSED
+"setText(findTestObject(""Object Repository/Profile/Login/EditText.Password""), ""AquaBotol1"", 10)",,,,2024-02-13 22:14:00,2024-02-13 22:14:01,1.287s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Login/Button.LOGIN""), 10)",,,,2024-02-13 22:14:01,2024-02-13 22:14:02,0.775s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/ImageView.BurgerButton""), 10)",,,,2024-02-13 22:14:02,2024-02-13 22:14:07,5.580s,PASSED
+"displayedUsername = getText(findTestObject(""Object Repository/Profile/Register/TextView.Username""), 10)",,,,2024-02-13 22:14:07,2024-02-13 22:14:08,1.020s,PASSED
+"assert displayedUsername.equalsIgnoreCase(""AquaBotol1"")",,,,2024-02-13 22:14:08,2024-02-13 22:14:08,0.019s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchButton""), 10)",,,,2024-02-13 22:14:08,2024-02-13 22:14:10,1.236s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/EditText.Search""), ""HP"", 10)",,,,2024-02-13 22:14:10,2024-02-13 22:14:11,1.208s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchGo""), 10)",,,,2024-02-13 22:14:11,2024-02-13 22:14:12,0.635s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/RelativeLayout.SecondItem""), 10)",,,,2024-02-13 22:14:12,2024-02-13 22:14:14,2.501s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/Button.AddToCart""), 10)",,,,2024-02-13 22:14:14,2024-02-13 22:14:14,0.362s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.ImageView""), 10)",,,,2024-02-13 22:14:14,2024-02-13 22:14:17,2.599s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.Button - CHECKOUT (PAY 13.99)""), 10)",,,,2024-02-13 22:14:17,2024-02-13 22:14:18,1.130s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/LinearLayout.EditPayment""), 30)",,,,2024-02-13 22:14:18,2024-02-13 22:14:50,31.425s,FAILED
+,,,,,,,
+Test Cases/Checkout/TC - Search Item,,,,2024-02-13 22:14:50,2024-02-13 22:15:13,23.662s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:14:50,2024-02-13 22:15:05,15.574s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchButton""), 10)",,,,2024-02-13 22:15:05,2024-02-13 22:15:06,0.817s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/EditText.Search""), item, 10)",,,,2024-02-13 22:15:06,2024-02-13 22:15:09,3.238s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchGo""), 10)",,,,2024-02-13 22:15:09,2024-02-13 22:15:10,1.097s,PASSED
+closeApplication(),,,,2024-02-13 22:15:10,2024-02-13 22:15:13,2.859s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC - Search Item,,,,2024-02-13 22:15:13,2024-02-13 22:15:34,20.272s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:15:13,2024-02-13 22:15:28,14.801s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchButton""), 10)",,,,2024-02-13 22:15:28,2024-02-13 22:15:29,0.641s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/EditText.Search""), item, 10)",,,,2024-02-13 22:15:29,2024-02-13 22:15:31,2.178s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchGo""), 10)",,,,2024-02-13 22:15:31,2024-02-13 22:15:32,0.954s,PASSED
+closeApplication(),,,,2024-02-13 22:15:32,2024-02-13 22:15:34,1.669s,PASSED
+,,,,,,,
+Test Cases/Checkout/TC - Search Item,,,,2024-02-13 22:15:34,2024-02-13 22:15:55,21.144s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:15:34,2024-02-13 22:15:47,13.141s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchButton""), 10)",,,,2024-02-13 22:15:47,2024-02-13 22:15:47,0.732s,PASSED
+"setText(findTestObject(""Object Repository/Checkout/EditText.Search""), item, 10)",,,,2024-02-13 22:15:47,2024-02-13 22:15:51,3.215s,PASSED
+"tap(findTestObject(""Object Repository/Checkout/ImageView.SearchGo""), 10)",,,,2024-02-13 22:15:51,2024-02-13 22:15:52,1.063s,PASSED
+closeApplication(),,,,2024-02-13 22:15:52,2024-02-13 22:15:55,2.979s,PASSED

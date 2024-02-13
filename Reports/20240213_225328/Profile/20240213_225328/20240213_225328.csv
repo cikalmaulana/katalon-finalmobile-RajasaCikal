@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Profile,,,,2024-02-13 22:53:39,2024-02-13 22:55:53,2m - 14.241s,FAILED
+,,,,,,,
+Test Cases/Profile/TS - Login,,,,2024-02-13 22:53:39,2024-02-13 22:54:51,1m - 11.576s,PASSED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:53:40,2024-02-13 22:54:21,40.655s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/ImageView.BurgerButton""), 10)",,,,2024-02-13 22:54:21,2024-02-13 22:54:24,2.639s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/LinearLayout.LoginButton""), 10)",,,,2024-02-13 22:54:24,2024-02-13 22:54:26,2.182s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Login/RelativeLayout.Username""), 10)",,,,2024-02-13 22:54:26,2024-02-13 22:54:29,3.194s,PASSED
+"setText(findTestObject(""Object Repository/Profile/Login/EditText.Username""), ""AquaBotol1"", 10)",,,,2024-02-13 22:54:29,2024-02-13 22:54:32,3.258s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Login/RelativeLayout.Password""), 10)",,,,2024-02-13 22:54:32,2024-02-13 22:54:34,1.239s,PASSED
+"setText(findTestObject(""Object Repository/Profile/Login/EditText.Password""), ""AquaBotol1"", 10)",,,,2024-02-13 22:54:34,2024-02-13 22:54:36,2.058s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Login/Button.LOGIN""), 10)",,,,2024-02-13 22:54:36,2024-02-13 22:54:37,0.932s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/ImageView.BurgerButton""), 10)",,,,2024-02-13 22:54:37,2024-02-13 22:54:46,9.266s,PASSED
+"displayedUsername = getText(findTestObject(""Object Repository/Profile/Register/TextView.Username""), 10)",,,,2024-02-13 22:54:46,2024-02-13 22:54:47,1.415s,PASSED
+"assert displayedUsername.equalsIgnoreCase(""AquaBotol1"")",,,,2024-02-13 22:54:47,2024-02-13 22:54:47,0.032s,PASSED
+closeApplication(),,,,2024-02-13 22:54:47,2024-02-13 22:54:51,3.708s,PASSED
+,,,,,,,
+Test Cases/Profile/TS - Register Account,,,,2024-02-13 22:54:51,2024-02-13 22:55:53,1m - 2.094s,FAILED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:54:51,2024-02-13 22:55:26,34.324s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/ImageView.BurgerButton""), 10)",,,,2024-02-13 22:55:26,2024-02-13 22:55:28,2.682s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/LinearLayout.LoginButton""), 10)",,,,2024-02-13 22:55:28,2024-02-13 22:55:31,2.518s,PASSED
+"tap(findTestObject(""Object Repository/Profile/Register/TextView.SignUPButton""), 10)",,,,2024-02-13 22:55:31,2024-02-13 22:55:41,10.263s,PASSED
+"setText(findTestObject(""Object Repository/Profile/Register/EditText.Username""), username, 10)",,,,2024-02-13 22:55:41,2024-02-13 22:55:53,11.926s,FAILED

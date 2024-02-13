@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,,,,2024-02-13 22:09:29,2024-02-13 22:09:30,1.069s,FAILED
+,,,,,,,
+Test Cases/Checkout/TC - Search and Checkout,,,,2024-02-13 22:09:29,2024-02-13 22:09:30,0.667s,FAILED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:09:29,2024-02-13 22:09:30,0.292s,FAILED
+,,,,,,,
+Test Cases/Checkout/TC - Search Item,,,,2024-02-13 22:09:30,2024-02-13 22:09:30,0.085s,FAILED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:09:30,2024-02-13 22:09:30,0.009s,FAILED
+,,,,,,,
+Test Cases/Checkout/TC - Search Item,,,,2024-02-13 22:09:30,2024-02-13 22:09:30,0.021s,FAILED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:09:30,2024-02-13 22:09:30,0.006s,FAILED
+,,,,,,,
+Test Cases/Checkout/TC - Search Item,,,,2024-02-13 22:09:30,2024-02-13 22:09:30,0.030s,FAILED
+"startApplication(""D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk"", true)",,,,2024-02-13 22:09:30,2024-02-13 22:09:30,0.008s,FAILED

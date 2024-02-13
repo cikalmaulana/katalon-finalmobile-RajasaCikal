@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Checkout/TC - Search and Checkout","testCaseId":"Test Cases/Checkout/TC - Search and Checkout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Checkout/TC - Search Item","testCaseId":"Test Cases/Checkout/TC - Search Item","iterationVariableName":"","bindedValues":{"item":"\u0027HP\u0027"}}
+{"testCaseName":"Test Cases/Checkout/TC - Search Item","testCaseId":"Test Cases/Checkout/TC - Search Item","iterationVariableName":"","bindedValues":{"item":"\u0027BOSE\u0027"}}
+{"testCaseName":"Test Cases/Checkout/TC - Search Item","testCaseId":"Test Cases/Checkout/TC - Search Item","iterationVariableName":"","bindedValues":{"item":"\u0027BEATS\u0027"}}

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout" time="140.01" tests="4" failures="1" errors="0">
+   <testsuite name="Checkout" tests="4" failures="1" errors="0" time="140.01" skipped="0" timestamp="2024-02-13 22:13:35" hostname="CIkal - Cikal" id="Test Suites/Checkout">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\CIkal\\git\\katalon-finalmobile-RajasaCikal\\Reports\\20240213_221331\\Checkout\\20240213_221331"/>
+         <property name="logFiles" value="C:\\Users\\CIkal\\git\\katalon-finalmobile-RajasaCikal\\Reports\\20240213_221331\\Checkout\\20240213_221331\\appium.log, C:\\Users\\CIkal\\git\\katalon-finalmobile-RajasaCikal\\Reports\\20240213_221331\\Checkout\\20240213_221331\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\CIkal\\git\\katalon-finalmobile-RajasaCikal\\Reports\\20240213_221331\\Checkout\\20240213_221331\\1707837288675.png"/>
+         <property name="hostName" value="CIkal - Cikal"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.0.25"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/TC - Search and Checkout" time="74.641" classname="Test Cases/Checkout/TC - Search and Checkout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Checkout/TC - Search and Checkout FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Checkout/LinearLayout.EditPayment not found&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)&#xa;	at TC - Search and Checkout.run(TC - Search and Checkout:56)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1707837211242.run(TempTestSuite1707837211242.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2024-02-13 22:13:35 - [TEST_CASE][FAILED] - Test Cases/Checkout/TC - Search and Checkout: Test Cases/Checkout/TC - Search and Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Checkout/LinearLayout.EditPayment not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC - Search and Checkout.run(TC - Search and Checkout:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707837211242.run(TempTestSuite1707837211242.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+2024-02-13 22:13:35 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:13:36 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-13 22:13:37 - [MESSAGE][INFO] - Appium server started on port 55,467
+
+2024-02-13 22:13:52 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:13:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile/Register/ImageView.BurgerButton"), 10): Tapped on element 'Object Repository/Profile/Register/ImageView.BurgerButton'
+
+2024-02-13 22:13:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Register/ImageView.BurgerButton'
+
+2024-02-13 22:13:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile/Register/LinearLayout.LoginButton"), 10): Tapped on element 'Object Repository/Profile/Register/LinearLayout.LoginButton'
+
+2024-02-13 22:13:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Register/LinearLayout.LoginButton'
+
+2024-02-13 22:13:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile/Login/RelativeLayout.Username"), 10): Tapped on element 'Object Repository/Profile/Login/RelativeLayout.Username'
+
+2024-02-13 22:13:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Login/RelativeLayout.Username'
+
+2024-02-13 22:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Profile/Login/EditText.Username"), "AquaBotol1", 10): Text 'AquaBotol1' has been set to element 'Object Repository/Profile/Login/EditText.Username'
+
+2024-02-13 22:13:58 - [MESSAGE][PASSED] - Text 'AquaBotol1' has been set to element 'Object Repository/Profile/Login/EditText.Username'
+
+2024-02-13 22:13:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile/Login/RelativeLayout.Password"), 10): Tapped on element 'Object Repository/Profile/Login/RelativeLayout.Password'
+
+2024-02-13 22:14:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Login/RelativeLayout.Password'
+
+2024-02-13 22:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Profile/Login/EditText.Password"), "AquaBotol1", 10): Text 'AquaBotol1' has been set to element 'Object Repository/Profile/Login/EditText.Password'
+
+2024-02-13 22:14:01 - [MESSAGE][PASSED] - Text 'AquaBotol1' has been set to element 'Object Repository/Profile/Login/EditText.Password'
+
+2024-02-13 22:14:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile/Login/Button.LOGIN"), 10): Tapped on element 'Object Repository/Profile/Login/Button.LOGIN'
+
+2024-02-13 22:14:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Login/Button.LOGIN'
+
+2024-02-13 22:14:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Profile/Register/ImageView.BurgerButton"), 10): Tapped on element 'Object Repository/Profile/Register/ImageView.BurgerButton'
+
+2024-02-13 22:14:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Profile/Register/ImageView.BurgerButton'
+
+2024-02-13 22:14:07 - [TEST_STEP][PASSED] - displayedUsername = getText(findTestObject("Object Repository/Profile/Register/TextView.Username"), 10): Text of element 'Object Repository/Profile/Register/TextView.Username' is: 'AquaBotol1'
+
+2024-02-13 22:14:08 - [MESSAGE][PASSED] - Text of element 'Object Repository/Profile/Register/TextView.Username' is: 'AquaBotol1'
+
+2024-02-13 22:14:08 - [TEST_STEP][PASSED] - assert displayedUsername.equalsIgnoreCase("AquaBotol1"): null
+
+2024-02-13 22:14:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchButton"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:14:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText.Search"), "HP", 10): Text 'HP' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:14:11 - [MESSAGE][PASSED] - Text 'HP' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:14:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchGo"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:14:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:14:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/RelativeLayout.SecondItem"), 10): Tapped on element 'Object Repository/Checkout/RelativeLayout.SecondItem'
+
+2024-02-13 22:14:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/RelativeLayout.SecondItem'
+
+2024-02-13 22:14:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/Button.AddToCart"), 10): Tapped on element 'Object Repository/Checkout/Button.AddToCart'
+
+2024-02-13 22:14:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/Button.AddToCart'
+
+2024-02-13 22:14:14 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.ImageView"), 10): Tapped on element 'Object Repository/Checkout/android.widget.ImageView'
+
+2024-02-13 22:14:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.ImageView'
+
+2024-02-13 22:14:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.Button - CHECKOUT (PAY 13.99)"), 10): Tapped on element 'Object Repository/Checkout/android.widget.Button - CHECKOUT (PAY 13.99)'
+
+2024-02-13 22:14:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.Button - CHECKOUT (PAY 13.99)'
+
+2024-02-13 22:14:18 - [TEST_STEP][FAILED] - tap(findTestObject("Object Repository/Checkout/LinearLayout.EditPayment"), 30): Failed to tap on element 'Object Repository/Checkout/LinearLayout.EditPayment' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Checkout/LinearLayout.EditPayment not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC - Search and Checkout.run(TC - Search and Checkout:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707837211242.run(TempTestSuite1707837211242.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+2024-02-13 22:14:48 - [MESSAGE][FAILED] - Object Object Repository/Checkout/LinearLayout.EditPayment not found
+
+2024-02-13 22:14:50 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Checkout/LinearLayout.EditPayment' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Checkout/LinearLayout.EditPayment not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC - Search and Checkout.run(TC - Search and Checkout:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707837211242.run(TempTestSuite1707837211242.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\CIkal\\git\\katalon-finalmobile-RajasaCikal\\Reports\\20240213_221331\\Checkout\\20240213_221331\\1707837288675.png]]]]></system-out>
+         <system-err><![CDATA[2024-02-13 22:13:35 - [TEST_CASE][FAILED] - Test Cases/Checkout/TC - Search and Checkout: Test Cases/Checkout/TC - Search and Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Checkout/LinearLayout.EditPayment not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC - Search and Checkout.run(TC - Search and Checkout:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707837211242.run(TempTestSuite1707837211242.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC - Search Item" time="23.662" classname="Test Cases/Checkout/TC - Search Item" status="PASSED">
+         <system-out><![CDATA[2024-02-13 22:14:50 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC - Search Item: Test Cases/Checkout/TC - Search Item
+
+2024-02-13 22:14:50 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:15:05 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:15:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchButton"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:15:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText.Search"), item, 10): Text 'HP' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:15:09 - [MESSAGE][PASSED] - Text 'HP' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:15:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchGo"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:15:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:15:10 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-13 22:15:13 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC - Search Item" time="20.272" classname="Test Cases/Checkout/TC - Search Item" status="PASSED">
+         <system-out><![CDATA[2024-02-13 22:15:13 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC - Search Item: Test Cases/Checkout/TC - Search Item
+
+2024-02-13 22:15:13 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:15:14 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-13 22:15:15 - [MESSAGE][INFO] - Appium server started on port 55,888
+
+2024-02-13 22:15:28 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:15:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchButton"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:15:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:15:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText.Search"), item, 10): Text 'BOSE' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:15:31 - [MESSAGE][PASSED] - Text 'BOSE' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:15:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchGo"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:15:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:15:32 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-13 22:15:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TC - Search Item" time="21.144" classname="Test Cases/Checkout/TC - Search Item" status="PASSED">
+         <system-out><![CDATA[2024-02-13 22:15:34 - [TEST_CASE][PASSED] - Test Cases/Checkout/TC - Search Item: Test Cases/Checkout/TC - Search Item
+
+2024-02-13 22:15:34 - [TEST_STEP][PASSED] - startApplication("D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk", true): Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:15:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-02-13 22:15:35 - [MESSAGE][INFO] - Appium server started on port 56,090
+
+2024-02-13 22:15:47 - [MESSAGE][PASSED] - Started app at: 'D:\BFLP\Bootcamp\Materi\Advantage+demo+3.2.apk'
+
+2024-02-13 22:15:47 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchButton"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:15:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchButton'
+
+2024-02-13 22:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/EditText.Search"), item, 10): Text 'BEATS' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:15:51 - [MESSAGE][PASSED] - Text 'BEATS' has been set to element 'Object Repository/Checkout/EditText.Search'
+
+2024-02-13 22:15:51 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/ImageView.SearchGo"), 10): Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:15:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/ImageView.SearchGo'
+
+2024-02-13 22:15:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-02-13 22:15:55 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-02-13 22:13:35 - [TEST_SUITE][FAILED] - Checkout: Test Cases/Checkout/TC - Search and Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Checkout/LinearLayout.EditPayment not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC - Search and Checkout.run(TC - Search and Checkout:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707837211242.run(TempTestSuite1707837211242.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[2024-02-13 22:13:35 - [TEST_SUITE][FAILED] - Checkout: Test Cases/Checkout/TC - Search and Checkout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Checkout/LinearLayout.EditPayment not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at TC - Search and Checkout.run(TC - Search and Checkout:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1707837211242.run(TempTestSuite1707837211242.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

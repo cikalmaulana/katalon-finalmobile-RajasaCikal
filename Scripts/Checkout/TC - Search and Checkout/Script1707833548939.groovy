@@ -45,7 +45,7 @@ Mobile.setText(findTestObject('Object Repository/Checkout/EditText.Search'), "HP
 
 Mobile.tap(findTestObject('Object Repository/Checkout/ImageView.SearchGo'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Checkout/RelativeLayout.SecondItem'), 10)
+Mobile.tap(findTestObject('Object Repository/Checkout/RelativeLayout.SecondItem'), 60)
 
 Mobile.tap(findTestObject('Object Repository/Checkout/Button.AddToCart'), 10)
 
@@ -53,7 +53,7 @@ Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.ImageView')
 
 Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.Button - CHECKOUT (PAY 13.99)'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Checkout/LinearLayout.EditPayment'), 10)
+Mobile.tap(findTestObject('Object Repository/Checkout/LinearLayout.EditPayment'), 30)
 
 if(paymentMethod.equalsIgnoreCase("mastercredit")) {
 	Mobile.tap(findTestObject('Object Repository/Checkout/ImageView.MasterCredit'), 0)

@@ -29,11 +29,20 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout/TC - Search Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5820a797-d1d0-4510-b279-11ae39e6d773</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Search Data</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>5820a797-d1d0-4510-b279-11ae39e6d773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item</value>
          <variableId>ae144aec-8de7-43e7-aa12-9e7dd854da89</variableId>
       </variableLink>
    </testCaseLink>

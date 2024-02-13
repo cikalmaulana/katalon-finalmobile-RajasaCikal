@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Object Repository/Profile/Register/LinearLayout.Login
 
 Mobile.tap(findTestObject('Object Repository/Profile/Register/TextView.SignUPButton'), 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Username'), GlobalVariable.username, 10)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Username'), GlobalVariable.username, 30)
 
 Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Email'), GlobalVariable.email, 
     10)
