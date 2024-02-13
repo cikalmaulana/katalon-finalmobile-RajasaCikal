@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Search Data</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ba963873-a76f-4f83-b5fc-71a13487aff3</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>HP</data>
+   <data>BOSE</data>
+   <data>BEATS</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>item</name>
+      <size>3</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

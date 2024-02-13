@@ -11,4 +11,30 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5c4005e0-360a-45d6-8278-35643f7f25be</testSuiteGuid>
+   <testCaseLink>
+      <guid>0a7438c2-35bc-47c8-aa93-2b138dfd3a8d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout/TC - Search and Checkout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3f59e5d8-69a6-497c-ac2f-2e7ca7bf7bbe</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8cd3434-2b71-4126-b50d-fd2a3ea8dbf6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout/TC - Search Item</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ae144aec-8de7-43e7-aa12-9e7dd854da89</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

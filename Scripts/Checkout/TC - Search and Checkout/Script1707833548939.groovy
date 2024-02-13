@@ -79,4 +79,6 @@ Mobile.tap(findTestObject('Object Repository/Checkout/Button.PayNow'), 10)
 
 Mobile.verifyElementVisible(findTestObject('Object Repository/Checkout/TextView.Success'), 10)
 
+Mobile.delay(5)
+
 Mobile.closeApplication()
