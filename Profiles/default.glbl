@@ -14,4 +14,19 @@
       <initValue>'AquaBotol2'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Aqua'</initValue>
+      <name>firstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Botol'</initValue>
+      <name>lastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'aquabotol@gmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -16,43 +16,49 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import io.appium.java_client.TouchAction
+import io.appium.java_client.touch.offset.PointOption
 
 Mobile.startApplication('D:\\BFLP\\Bootcamp\\Materi\\Advantage+demo+3.2.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Register/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Register/ImageView.BurgerButton'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Register/android.widget.LinearLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Register/LinearLayout.LoginButton'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Register/android.widget.TextView - SIGN UP TODAY'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Register/TextView.SignUPButton'), 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Username'), 'AquaBotol1', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Username'), GlobalVariable.username, 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Email'), 'AquaBotol@gmail.com', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Email'), GlobalVariable.email, 
+    10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Password'), 'AquaBotol1', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Password'), GlobalVariable.password, 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.ConfirmPassword'), 'AquaBotol1', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.ConfirmPassword'), GlobalVariable.password, 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.FirstName'), 'Aqua', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.FirstName'), GlobalVariable.firstName, 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.LastName'), 'Botol', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.LastName'), GlobalVariable.lastName, 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Phone'), '08122333444', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Phone'), '08122333444', 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.State'), 'New York', 0)
+Mobile.scrollToText("REGISTER")
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Address'), '456 Oak Avenue', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.State'), 'New York', 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.City'), 'New York', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Address'), '456 Oak Avenue', 10)
 
-Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Zip'), '10001', 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.City'), 'New York', 10)
 
-Mobile.tap(findTestObject('Object Repository/Profile/Register/android.widget.Button - REGISTER'), 0)
+Mobile.setText(findTestObject('Object Repository/Profile/Register/EditText.Zip'), '10001', 10)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Register/Button.RegisterButton'), 10)
 
-Mobile.getText(findTestObject('Object Repository/Profile/Register/android.widget.TextView - AquaBotol1'), 0)
+Mobile.tap(findTestObject('Object Repository/Profile/Register/ImageView.BurgerButton'), 10)
+
+String displayedUsername = Mobile.getText(findTestObject('Object Repository/Profile/Register/TextView.Username'), 10)
+
+assert displayedUsername.equalsIgnoreCase(GlobalVariable.username)
 
 Mobile.closeApplication()
 
