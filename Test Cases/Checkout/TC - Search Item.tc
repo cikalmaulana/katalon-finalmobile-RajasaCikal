@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Search Item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77ebbea9-03d3-43a0-8d9e-961dc24426a4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae144aec-8de7-43e7-aa12-9e7dd854da89</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HP'</defaultValue>
+      <description></description>
+      <id>ae144aec-8de7-43e7-aa12-9e7dd854da89</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

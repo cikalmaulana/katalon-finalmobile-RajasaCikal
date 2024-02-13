@@ -19,9 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('D:\\BFLP\\Bootcamp\\Materi\\Advantage+demo+3.2.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/Checkout/ImageView.SearchButton'), 10)
 
-Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.Button - CHECKOUT (PAY 549.99)'), 0)
+Mobile.setText(findTestObject('Object Repository/Checkout/EditText.Search'), item, 10)
+
+Mobile.tap(findTestObject('Object Repository/Checkout/ImageView.SearchGo'), 10)
 
 Mobile.closeApplication()
-
