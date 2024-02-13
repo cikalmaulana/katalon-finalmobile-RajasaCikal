@@ -11,26 +11,39 @@ This project utilizes Katalon Studio for mobile automation testing on the Advant
 * Search for an item and select it.
 * Add the item to the cart.
 * Navigate to the cart and proceed to checkout.
-* Based on the payment method (MasterCredit or SafePay), fill in the required details (credit number, CVV, date, name/password).
+* Based on the payment method (MasterCredit or SafePay), fill in the required details:
+  - If MasterCredit:
+    - Enter credit number, CVV, date, and name.
+  - If SafePay:
+    - Enter username and password.
 * Click "Pay Now."
 * Verify the success confirmation dialog using Mobile.verifyElementVisible(findTestObject('Object Repository/Checkout/TextView.Success'), 10).
 
+### 2. Test Case: Search
+* Perform a search for an item using data binding.
+  - Bind the item data to a local variable named "item."
+* Launch the application.
+* Login to the app.
+* Verify if the displayed username matches the login username.
+* Search for the item obtained from data binding.
+* Verify the search results.
+
 #### Issues Encountered:
 
-1. No Internet Connection Error:
-Despite a stable internet connection, the application sometimes reports "No Internet Connection." Investigate the network connectivity on the device and ensure a consistent connection.
+1. **No Internet Connection Error:**
+   Despite a stable internet connection, the application sometimes reports "No Internet Connection." Investigate the network connectivity on the device and ensure a consistent connection.
 
-**Evidence:**
-- [Download Network Error](https://drive.google.com/file/d/1MrnftCufBckOauFP748VFf_az9COjRY8/view?usp=sharing)
+   **Evidence:**
+   - [Download Network Error](https://drive.google.com/file/d/1MrnftCufBckOauFP748VFf_az9COjRY8/view?usp=sharing)
 
-3. Checkout Error - "An error occurred":
-An error message is displayed during the checkout process without clear details. Examine the application logs or inspect the UI elements to identify the root cause of this issue.
+2. **Checkout Error - "An error occurred":**
+   An error message is displayed during the checkout process without clear details. Examine the application logs or inspect the UI elements to identify the root cause of this issue.
 
-5. Search Timeout Issue:
-The search process takes longer than the specified timeout (10 seconds). Adjust the timeout duration in your test case to ensure it accommodates the actual search duration.
+3. **Search Timeout Issue:**
+   The search process takes longer than the specified timeout (10 seconds). Adjust the timeout duration in your test case to ensure it accommodates the actual search duration.
 
-**Evidence:**
-- [Download Timeout Error](https://drive.google.com/file/d/1Mp3udV7COA7pJZDKuJUJ8ynE34Vswd5w/view?usp=sharing)
+   **Evidence:**
+   - [Download Timeout Error](https://drive.google.com/file/d/1Mp3udV7COA7pJZDKuJUJ8ynE34Vswd5w/view?usp=sharing)
 
 ## Test Suite: Profile
 ### 1. Test Case: Register
